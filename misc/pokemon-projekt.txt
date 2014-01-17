@@ -1,0 +1,50 @@
+POKEMON_PROJEKT
+
+
+
+
+------------------------------------------------
+Wenn man einen Kampf verliert und all seine Pokemon nicht mehr kaempfen lassen kann, kommt man zurueck ins Heilcenter und hat eine gewisse Menge Geld verloren(moderate Menge)
+Man hat einen sogenannten Trainer-Lv
+	Dieser Lv definiert die Faehigkeit und den Fortschritt des Spielers.
+	Man erhaelt Trainer-Erfahrung fŸr jeden Kampf in der Arena, wobei PvP- Kaempfe mehr bringen, auch wenn man verliert, was natŸrlich weniger bringt, als wenn man gewinnt) 
+	Je hoeher der Trainer-Lv desto bessere Items(Traenke, TM`s etc.)kann man im Shop kaufen und desto seltenere Pokemon kann man treffen.
+	Je hoeher dein Trainer-Lv desto angesehener bist du :DDD
+Das Spiel besteht aus einer Arena in der man gegen zufaellige Pokemon kaempft.
+
+Jedes Pokemon kann jederzeit abhaengig von seiner Wahrscheinlichkeit auftauchen
+
+Die gegnerischen Pokemon tauchen mit einem Lv.-Unterschied von bis zu +/- 4 oder 5 (abgesehen am Anfang bis die eigenen Pokemon lv 15 oder so erreicht haben, solange tauchen die Gegner nur auf dem selben LV. auf)
+
+Man kann nur ein Pokemon in den Kampf mitnehmen.
+
+Jedes Pokemon droppt nach dem Kampf Items.
+		
+		# Geld(Zum Handeln mit anderen Spielern oder um im InGame-Shop schlechtes Equipment oder Tränke etc. zu kaufen)
+		# Equipment(Schuhe, Hose, Oberteil, Handschuhe, Helm, Halskette, Ring, Waffe, Schild)
+		#(Das Item hat Stats, die das Poekmon verbessern. Es gibt herausragende Set-Boni, da diese schwer zu erlangen sind.Jedes Item hat Vorraussetzungen, die man erfüllen muss um das Item ausrüsten zu können. z.B Typspezifisch oder Levelabhängig etc..)
+		#Items können für viel Geld verbessert werden, doch nur mit begrenzt möglich(5-10mal)
+		#Items können mit anderen Spielern gehandelt werden.
+		#Items haben einen Seltenheitswert. Dieser zeigt wie mächtig das Item ist.Es gibt die Stufen : Common(71.5%) < Rare(17%) < Super Rare(7%) < Ultra Rare(3%) < Legendary(1%) < Ultimate(0.5%)
+		#Items verbessern. Je höher der Seltenheitswert desto besser ist der Effekt im Vergleich zum selben Item mit einer geringeren Seltenheit: z.B Common-Holzschwert= Attack + 10  und Ultimate-Holzschwert Attack + 27 und Initiative + 10 und Defense + 10)
+		#Zu den Items die gedropped werden zählen auch Tränke und  TM`s
+
+
+Die Pokemon:
+
+
+
+
+		Jedes Pokemon hat eine Seltenheit, mit der es in der Arena erscheint(siehe Seltenheit der Items/Equipments)
+		#Es werden Pokemon aus existierenden Editionen mit den zugehörigen Atacken verwendet, es können aber auch komplett neue erfunden werden( Sprite ??)
+		#Das Pokemon hat einen der vorhandenen Typen :  Feuer, Wasser, Pflanze, Stein, Elektro :
+								Feuer > Pflanze > Stein > Elektro > Wasser > Feuer....
+		#Der Schaden wird berechnet durch die Formal (Typ-vor/nach- teil)*Attackenangriffsstärke-(Angriffsstärke des angreifenden Pokemons - Verteidigung des verteidigenden Pokemons)    Der Typvorteil sorgt für 2*   und der Typnachteil sorgt für 0,5*
+		#Typ-vor/nach-teil ist abhängig von Typ der benutzten Attacke und Typ des angegriffenen Pokemon
+		#Ein Pokemon kann nur bestimmte TM`s erlernen, allerdings auch welche unterschiedlichen Types
+		Es gibt kein Lv.maximum.
+		Bei Lv.up steigen die Stats des Pokemon zwischen 1-3 
+		Die Stats eines jeden zufällig bekämpften Pokemon werden errechnet durch die Formel : Lv * 1,5
+		Die wilden Pokemon habe 5 zufällige Attacken von denen es zufällig eine einsetzt jede Runde
+		Wilde Pokemon sind nicht in der Lage Tränke im KAmpf einzusetzen
+		Alle 5 Lv will dein Pokemon eine neue Attacke erlernen. Diese wird zufällig festgelegt.Jedes Pokemon  kann jede Attacke erlernen. Alle Attacken können sobald man einen bestimmten Trainer-lv erreicht hat, im Shop gekauft werden. 
