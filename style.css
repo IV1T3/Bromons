@@ -10,7 +10,7 @@
     border-radius: 15px;
 }
 
-.popUps a {
+.popUps a{
     color: white;
     text-decoration: none;
     background-color: red;
@@ -18,11 +18,14 @@
     left: 0;
     right: 0;
     display: block;
-    text-align: center;
-    padding: 1.337em;
+    padding: 0.42em;
 }
 
-.popUps #popUpBody{
+.popUps header h2{
+    text-align: center;
+}
+
+.popUps article {
     padding-left: 2em;
 }
 
