@@ -1,0 +1,31 @@
+.popUps {
+    display: none;
+    position: fixed;
+    background-color: black;
+    color: white;
+    top: 5em;
+    left: 5em;
+    right: 5em;
+    bottom: 5em;
+    border-radius: 15px;
+}
+
+.popUps a {
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    text-align: center;
+    padding: 1.337em;
+}
+
+.popUps #popUpBody{
+    padding-left: 2em;
+}
+
+#home:target, #wilderness:target, #shop:target, #hospital:target, #arena:target, #square:target {
+    display: block;
+}
